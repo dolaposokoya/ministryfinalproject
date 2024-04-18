@@ -20,12 +20,12 @@ function loginUser(event) {
         }
     })
     if (founderUser) {
-        alert("User is present", founderUser)
+        alert("User is present", userid.value)
     }
     else {
         alert("User is not present")
     }
-    // console.log("password",password)
+    console.log("password",userid.value)
 
     // if (!password.value) {
     //     return alert('Password is emtpty')
